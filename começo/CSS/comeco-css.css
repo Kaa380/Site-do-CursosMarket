@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #011e11;
+}
+#livro {
+width: 450px;
+height: 450px;
+margin-left: 120vh;
+margin-top: 5.5vw;
+position: absolute;
+
+}
+#texto1 {
+color: #5e17eb;
+margin-left: 3vw;
+font-size: 15px;
+margin-top: 5vh;
+position: absolute;
+
+}
+#texto2 {
+color: white;
+margin-left: 3vw;
+margin-top: 40vh;
+position: absolute;
+font-size: 75px;
+
+}
+#box {
+background-color: #38b6ff;
+margin-top: 74vh;
+margin-left: 3vw;
+border-width: 2px 4px;
+border-radius: 40px;
+position: absolute;
+width: 400px;
+height: 80px;
+text-align: center;
+
+
+
+}
+#nome {
+color: white;
+text-decoration: none;
+margin-top: 5px;
+margin-right: 10px;
+
+}
+.botao-redondo {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: #38b6ff;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+

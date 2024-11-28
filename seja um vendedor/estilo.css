@@ -1,0 +1,42 @@
+body {
+height: 100vh;
+padding: 0px;
+margin: 0px;
+
+} 
+#texto {
+font-size: 90px;
+margin-left: 2vw;
+margin-top: 4vh;
+
+
+}
+
+
+#b1 {
+background-color: #38b6ff;
+color: white;
+height: 9vh;
+width: 12vw;
+border-radius: 10px;
+border: none;
+font-size: 32px;
+text-wrap: nowrap  ;
+margin-top: 10px;
+
+
+}
+#texto2 {
+font-size: 32px;
+margin-top: 10vh;
+margin-left: 2vw;
+
+}
+#foto {
+height: 25vh ;
+width: 25vw;
+margin-left: 50vw;
+margin-bottom: 100vh;
+
+position: absolute;
+}

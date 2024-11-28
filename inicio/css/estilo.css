@@ -1,0 +1,189 @@
+header {
+    background: linear-gradient(90deg, rgb(0, 0, 143), #38b6ff);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+nav ul li a {
+    margin-left: 50px;
+    border: 2px solid transparent;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar {
+    max-width: 2000px;
+    max-height: 50px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.nav-list li {
+    padding: 0 20px;
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.re {
+    width: 100px;
+    height: auto;
+    text-align: left;
+}
+
+.pqs {
+    text-align: left;
+    width: 50px;
+    height: 70px;
+    padding: 10px;
+}
+
+#rt {
+    text-align: left;
+    font-family: 'Neue Machina', sans-serif;
+    font-size: 50px;
+    color: #38b6ff;
+}
+
+div {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+#fe, #se {
+    font-size: 50px;
+}
+
+#ger {
+    font-size: 20px;
+}
+
+h3 {
+    text-align: unset;
+}
+
+#cm {
+    text-align: center;
+}
+
+#we {
+    text-align: right;
+}
+
+
+footer div div {
+    height: 200px;
+    width: 350px;
+    display: inline-block;
+    border-top: none;
+}
+
+.search-text {
+    position: absolute;
+    background: white;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.res {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.per {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0.5;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list li {
+        padding: 10px 0;
+    }
+
+    #rt {
+        font-size: 35px; 
+    }
+
+    #fe, #se {
+        font-size: 40px;
+    }
+
+    .re {
+        width: 80px;
+    }
+
+    .pqs {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    footer div div {
+        height: auto;
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .nav-list {
+        font-size: 14px;
+    }
+
+    .nav-list a {
+        font-size: 16px;
+    }
+
+    #rt, #fe, #se {
+        font-size: 30px;
+    }
+
+    .re, .pqs {
+        width: 100%;
+    }
+
+    .search-text {
+        width: 100%;
+    }
+}
